@@ -1,10 +1,9 @@
 import React from 'react';
 import "./Navbar.css";
 
-function Navbar() {
+export function Navbar() {
   return (
     <>
-    <div id="grad1">
         <div id="mySidenav" className="sidenav">
                 <span id="name">Whatcs</span>
                 <div id="Options">
@@ -27,7 +26,7 @@ function Navbar() {
                     </div>
                 </div>
         </div>
-    </div>
+
     </>
   );
 }
